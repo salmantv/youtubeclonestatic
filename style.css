@@ -1,0 +1,231 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+
+    box-sizing: border-box;
+}
+
+*:focus{
+
+    outline: none;
+}
+
+body{
+
+    background-color :rgb(245, 245, 245);
+    position: relative;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.navibar{
+
+    height: 60px;
+    width: 140%;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    align-items:center ;
+    padding: 0 2.5vw;
+    background-color: #ffff;
+}
+
+.icons{
+
+    height: 30px;
+    width: 26px;
+}
+.youtube{
+    height: 28px;
+    width: 150px;
+    padding-left: 30px;
+}
+.searchbar{
+
+    width: 85%;
+    height: 100%;
+    border: 2px solid #dbdbdd;
+    padding: 0 20px;
+    font-size: 16px;
+    margin-left: 9px;
+    
+
+}
+.searchbox{
+    
+    max-width: 676px;
+    position: relative;
+    height: 35px;
+    width: 95%;
+    display: flex;
+    margin-left: 10%;
+
+    
+}
+
+.searchicon {
+    width: 8%;
+   height: 100%;
+   border:  2px solid #dbdbdd ;
+   padding: 5 px 0;
+   border-left: none; 
+}
+
+.icon2{
+    width: 51%;
+    height: 81%;
+}
+
+.lefticons{
+
+    max-width: 500px;
+    position: relative;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    margin-left: 9%;
+}
+.icon3{
+    height: 100%;
+    padding-left: 25px;
+}
+.leftside{
+  
+  top: 60px;
+  position: fixed;
+  left: 0px;
+  min-width: 250 px;
+  width: 250px;
+  height: calc(100vh  - 60px);
+  background-color: #ffff;
+  padding-right: 10px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+
+
+}
+
+.links{
+ 
+    width: 100%;
+    display: block;
+    padding: 19px 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links :hover{
+
+    background-color: rgb(121, 75, 75);
+}
+
+.items{
+
+    margin-top: 0.8%;
+    background-color: rgb(245, 245, 245);
+    width: 84%;
+    height: 350px;
+    margin-left: 16%;
+    position: fixed;
+    display: flex;
+}
+
+
+.item1{
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 353px;
+    height: 293px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.items1{
+
+
+    margin-top: 22%;
+    background-color: rgb(245, 245, 245);
+    width: 84%;
+    height: 300px;
+    margin-left: 16%;
+    position: fixed;
+    display: flex;
+}
+
+.items3{
+
+    margin-top: 37%;
+    background-color: rgb(255, 255, 255);
+    width: 84%;
+    height: 300px;
+    margin-left: 16%;
+    position: fixed;
+    display: flex;
+}
+
+.profil{
+
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+
+.font1{
+
+    font-size: small;
+    font-family: sans-serif;
+    margin-top: 10 px;
+    padding-left: 65px;
+    margin-top: -40px;
+}
+
+.font2{
+    font-size: small;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: 8px;
+}
+.serches{
+
+    width: 1274px;
+    height: 55px;
+    background-color: #ffffff;
+    margin-top: 61px;
+    margin-left: 245px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8px;
+    
+}
+
+.topics{
+
+    width: 6%;
+    height: 37px;
+    background-color:#c7c7c7;
+    border-radius: 100px;
+    padding-top: 35px;
+    
+}
+
+.fonts{
+    margin-top: -25px;
+    font-size: 10px;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding-left: 11px;
+    color: rgb(20, 19, 19);
+}
+.fontsfix{
+
+    font-size: 10px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-top: -23px;
+    margin-left: 4.5px;
+    color: rgb(37, 35, 35);
+}
